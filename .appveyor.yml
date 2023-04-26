@@ -9,7 +9,6 @@ branches:
 build: off
 
 install:
-  - $ chrome --headless --remote-debugging-port=9222 https://chromium.org
   - java -jar ./artifacts/app-order.jar &
   - chmod +x gradlew
 
